@@ -4,13 +4,14 @@ window.onload = function () {
     setTimeout(function () {
         var time = 0;
 
-        faders.forEach(function (element) {
-
+        for (var index = 0; index < faders.length; index++) {
+            var element = faders(index);
+            
             setTimeout(function () {
                 element.className += ' fade';
             }, time);
 
             time += 800;
-        });
+        }
     }, 500);
 };
