@@ -36,15 +36,15 @@ body {
     display: block;
     margin: 25px auto 0;
     text-align: center; }
-    body .links .linkedin, body .links .github {
+    body .links a {
       margin: 0 10px;
       width: 55px;
       height: 60px; }
-      body .links .linkedin i, body .links .github i {
+      body .links a i {
         font-size: 65px;
         color: #0DE5A8;
         transition: color 500ms ease; }
-        body .links .linkedin i:hover, body .links .github i:hover {
+        body .links a i:hover {
           color: #099C73; }
   body .faders {
     opacity: 0;
