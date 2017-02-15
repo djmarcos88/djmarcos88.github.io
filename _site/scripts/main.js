@@ -5,13 +5,15 @@ window.onload = function () {
         var time = 0;
 
         for (var index = 0; index < faders.length; index++) {
-            var element = faders[index];
+            (function (i) {
+                var element = faders[i];
 
-            setTimeout(function () {
-                element.className += ' fade';
-            }, time);
+                setTimeout(function() {
+                    element.className += ' fade';
+                }, time);
 
-            time += 800;
+                time += 800;
+            })(index);
         }
     }, 500);
 };
