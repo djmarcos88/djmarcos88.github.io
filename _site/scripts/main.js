@@ -1,12 +1,16 @@
 window.onload = function () {
-    var profilePic = document.querySelector('.profile-pic');
-    var faders = document.querySelector('.faders');
+    var faders = document.querySelectorAll('.faders');
 
-    setTimeout(function() {
-        profilePic.className += ' fade';    
+    setTimeout(function () {
+        var time = 0;
+
+        faders.forEach(function (element) {
+
+            setTimeout(function () {
+                element.className += ' fade';
+            }, time);
+
+            time += 800;
+        });
     }, 500);
-
-    setTimeout(function() {
-        faders.className += ' fade';
-    }, 1300);
 };
