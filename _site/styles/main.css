@@ -12,7 +12,9 @@ body {
     height: 200px;
     width: 200px;
     border: 3px solid #0DE5A8;
-    border-radius: 50%; }
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 1000ms ease-out; }
   body h1 {
     color: #0DE5A8;
     text-align: center;
@@ -38,3 +40,8 @@ body {
       transition: color 500ms ease; }
       body .linkedin i:hover {
         color: #099C73; }
+  body .faders {
+    opacity: 0;
+    transition: opacity 1000ms ease-out; }
+  body .fade {
+    opacity: 1; }

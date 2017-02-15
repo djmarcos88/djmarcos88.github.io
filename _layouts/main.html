@@ -7,14 +7,21 @@
     <meta name="author" content="Marcos Djivelekian" />
     <meta name="keywords" content="Marcos, Djivelekian, Marcos Djivelekian, development, web development, HTML, CSS, JavaScript, full stack">
 
+    <script src="https://use.fontawesome.com/b794b9e48a.js"></script>
+
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://use.fontawesome.com/b794b9e48a.js"></script>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-    {% include header.html %} {{ content }} {% include footer.html %}
+    {% include header.html %}
+     
+    {{ content }}
+    
+    {% include footer.html %}
+
+    <script type="text/javascript" src="scripts/main.js" ></script>
 </body>
