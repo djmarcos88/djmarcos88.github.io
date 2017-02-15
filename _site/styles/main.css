@@ -1,0 +1,39 @@
+body {
+  background-image: url("/images/patterns/stardust-black.png");
+  background-repeat: repeat;
+  background-attachment: fixed; }
+  body .profile-pic {
+    background-image: url("/images/profile-pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #0DE5A8;
+    border-radius: 50%; }
+  body h1 {
+    color: #0DE5A8;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+    margin: 20px; }
+  body span.description {
+    color: #0DE5A8;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 17px; }
+  body .linkedin {
+    display: block;
+    margin: 25px auto 0;
+    width: 55px;
+    height: 60px; }
+    body .linkedin i {
+      font-size: 65px;
+      color: #0DE5A8;
+      transition: color 500ms ease; }
+      body .linkedin i:hover {
+        color: #099C73; }
