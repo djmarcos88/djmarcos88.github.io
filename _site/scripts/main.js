@@ -5,8 +5,8 @@ window.onload = function () {
         var time = 0;
 
         for (var index = 0; index < faders.length; index++) {
-            var element = faders(index);
-            
+            var element = faders[index];
+
             setTimeout(function () {
                 element.className += ' fade';
             }, time);
