@@ -8,5 +8,5 @@ window.onload = function () {
 
     setTimeout(function() {
         faders.className += ' fade';
-    }, 1000);
+    }, 1300);
 };
