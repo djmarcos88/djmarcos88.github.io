@@ -29,17 +29,20 @@ body {
     text-align: center;
     font-weight: lighter;
     font-size: 17px; }
-  body .linkedin {
+  body .links {
     display: block;
     margin: 25px auto 0;
-    width: 55px;
-    height: 60px; }
-    body .linkedin i {
-      font-size: 65px;
-      color: #0DE5A8;
-      transition: color 500ms ease; }
-      body .linkedin i:hover {
-        color: #099C73; }
+    text-align: center; }
+    body .links .linkedin, body .links .github {
+      margin: 0 10px;
+      width: 55px;
+      height: 60px; }
+      body .links .linkedin i, body .links .github i {
+        font-size: 65px;
+        color: #0DE5A8;
+        transition: color 500ms ease; }
+        body .links .linkedin i:hover, body .links .github i:hover {
+          color: #099C73; }
   body .faders {
     opacity: 0;
     transition: opacity 1000ms ease-out; }

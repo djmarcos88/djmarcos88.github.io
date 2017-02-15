@@ -33,17 +33,24 @@ body {
         font-weight: lighter;
         font-size: 17px;
     }
-    .linkedin {
+
+    .links {
         display: block;
         margin: 25px auto 0;
-        width: 55px;
-        height: 60px;
-        i {
-            font-size: 65px;
-            color: $scarpa;
-            transition: color 500ms ease;
-            &:hover {
-                color: $mint;
+        text-align: center;
+
+        .linkedin, .github {
+           margin: 0 10px;
+
+            width: 55px;
+            height: 60px;
+            i {
+                font-size: 65px;
+                color: $scarpa;
+                transition: color 500ms ease;
+                &:hover {
+                    color: $mint;
+                }
             }
         }
     }
